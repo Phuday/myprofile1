@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header__navbar">
+                <div class="header__navbar-logo">
+                    <img src="./img/3.png" alt="" class="header__navbar-logo--img">
+                </div>
+                <div class="header__navbar-list hide-on-mobile"> 
+                    <ul class="header--navbar-list-item">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="mobile__bar" class="mobile__menu">
+                    <!-- <i class="menu__icon fa-solid fa-bars"></i> -->
+                    <label id="mobie__bar" for="check">
+                        <i class="menu__icon fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="check">
+                    <ul class="mobile__menu-nav--item">
+                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">Home</a></li>
+                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">About</a></li>
+                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">Service</a></li>
+                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">Portfolio</a></li>
+                        <li class="mobile__menu-nav--list"><a href="#contact" class="mobile__menu-nav--link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="particles-js">
+            <div class="header__slider">
+                <div class="header__slider-namepr">
+                    <h2>Hi, I'm Phu.</h2>
+                    <p>I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                </div>
+                <!-- <img src="./img/m2.PNG" alt="" class="header__slider-img">   -->
+            </div>
+        </div>
+        <div class="grid wide">
+            <div id="about" class="content__about">
+                <div  class="content__header">
+                    <h2 class="content__header-title">About Me</h2>
+                    <p class="content__header-title2">MY SHORT INFO
+                    </p>
+                    <p class="content__header-decr">Life is too short to worry about the stupid things.</p>
+                </div>
+                <div class="row">
+                    <div class="col l-3 c-12">
+                        <div class="about__container">
+                            <div class="about__info">
+                                <img class="about__img" src="./img/about.JPEG" alt="">
+                             </div>
+                        </div> 
+                    </div>        
+                    <div class="col l-9 c-12">
+                        <div class="row sm-gutter">
+                            <div class="col l-6 c-6">
+                                <button id="about__introBtn" class="about__info-item">
+                                    <p>Intro</p>
+                                </button>
+                            </div>
+                            <div class="col l-6 c-6">
+                                <button id="about__skillBtn" class="about__info-item" type="button">
+                                    <p>Skills</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="about__myinfo">
+                            <div class="row">
+                                <div class="col l-12 c-12">
+                                    <div id="about__introList" class="col l-12 c-12 intro__text">
+                                        <h2>Hi, I am Phu.</h2>
+                                        <p>I am a Web Developer, working for the last five years. I have experience working with local clients along with clients from all around the world. I have vast knowledge about Web Design. The work I provide is of highest quality, Professional, and Authentic.</p>
+                                        <div class="intro__icon">
+                                            <ul class="intro__icon-list">
+                                                <li class="intro__icon-list-item">
+                                                    <a href="" class="fab fa-facebook"></a>
+                                                </li>
+                                                <li class="intro__icon-list-item">
+                                                    <a href="" class="fab fa-instagram"></a>
+                                                </li>
+                                                <li class="intro__icon-list-item">
+                                                    <a href="" class="fab fa-linkedin"></a>
+                                                </li>
+                                                <li class="intro__icon-list-item">
+                                                    <a href="" class="fab fa-line"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>        
+                            <div class="row">
+                                <div class="col l-12 c-12">
+                                    <div id="about__skillList" class="col l-12 c-12 skill__bar">
+                                        <li>
+                                            <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+                                        </li>
+                                        <li>
+                                            <h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+                                        </li>
+                                        <li>
+                                            <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
+                                        </li>
+                                        <li>
+                                            <h3>NODE-JS</h3><span class="bar"><span class="nodejs"></span></span>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <div id="service" class="content__service">
+            <div class="grid wide">
+                <div class="content__header">
+                    <h2 class="content__header-title">SERVICE</h2>
+                    <p class="content__header-title2">SERVICES WE PROVIDE</p>
+                    <p class="content__header-decr">Life is too short to worry about the stupid things.</p>
+                </div>
+                <div class="col l-12">
+                    <div class="service__container">
+                        <div class="row">
+                            <div class="col l-4 c-12">
+                                <div class="service__box-container">
+                                    <i class="fab fa-android"></i>
+                                    <h2 class="service__box--title">
+                                        APP DESIGN
+                                    </h2>
+                                    <h3 class="service__box-decr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                </div>
+                            </div>
+                            <div class="col l-4 c-12">
+                                <div class="service__box-container">
+                                    <i class="fa-solid fa-code"></i>
+                                    <h2 class="service__box--title">
+                                        WEB DESIGN
+                                    </h2>
+                                    <h3 class="service__box-decr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                </div>
+                            </div>
+                            <div class="col l-4 c-12">
+                                <div class="service__box-container">
+                                    <i class="fa-brands fa-sketch"></i>
+                                    <h2 class="service__box--title">
+                                        UI DESIGN
+                                    </h2>
+                                    <h3 class="service__box-decr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="content__portfolio">
+
+        </div>
+
+
+        <div id="contact" class="content__contact">
+            <div class="grid wide">
+                <div class="content__header">
+                    <h2 class="content__header-title">CONTACT ME</h2>
+                    <p class="content__header-title2">GET IN TOUCH</p>
+                    <p class="content__header-decr">Life is too short to worry about the stupid things.</p>
+                </div>
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <div>
+                            <h2>Contact Info</h2>
+                            <ul class="contact__info--info">
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>557-0041 Osaka-shi Nishinari-ku Kishinoshato Japan</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope-circle-check"></i>
+                                    <span>Vuongdinhphu26800<br>@gmail.com</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>080-2478-5022</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="contact__info-link">
+                            <li><a href=""><i class="fa-brands fa-facebook"></i></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-line"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact__form">
+                        <h2 class="contact__form-title">Send a Message</h2>
+                        <div class="form-box">
+                            <div class="input-box w50">
+                                <input type="text" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" required>
+                                <span>Last Name</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="email" required>
+                                <span>Email</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" required>
+                                <span>Phone</span>
+                            </div>
+                            <div class="input-box w100">
+                               <textarea required></textarea>
+                               <span>Write your message here...</span>
+                            </div>
+                            <div class="input-box w100">
+                               <input type="submit" value="Send">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3 class="footer__title">
+                Designed By Phu
+            </h3>
+            <h3 class="footer__title">
+                © All Right Reserved By Phu
+            </h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '70px',
+            duration: 2500,
+            delay: 400
+         });
+
+         ScrollReveal().reveal('.content__header, .about__img', { delay: 500, origin: 'left' });
+         ScrollReveal().reveal('', { delay: 600, origin: 'bottom' });
+         ScrollReveal().reveal('.about__info-item, .intro__text, .contact__form, .header__slider-img', { delay: 700, origin: 'right' });
+         ScrollReveal().reveal('.service__box-container, .intro__icon-list-item, input[type="submit"]', { delay: 500, origin: 'bottom', interval: 200});
+         ScrollReveal().reveal('', { delay: 500, origin: 'top'});
+         ScrollReveal().reveal('.header__slider-namepr, .contact__info', { delay: 500, origin: 'left', interval: 200});
+    </script>
+    <script src="./profile.js"></script>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
