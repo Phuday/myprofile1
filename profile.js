@@ -80,4 +80,16 @@ aboutSkillBtn.addEventListener("click", function() {
 });
 
 
-var barOn = document.querySelector('mobile__bar')
+ScrollReveal({ 
+    reset: true,
+    distance: '10px',
+    duration: 2500,
+    delay: 400
+ });
+
+ ScrollReveal().reveal('.content__header, .about__img', { delay: 500, origin: 'left' });
+ ScrollReveal().reveal('', { delay: 600, origin: 'bottom' });
+ ScrollReveal().reveal('.about__info-item, .intro__text, .contact__form, .header__slider-img', { delay: 700, origin: 'right' });
+ ScrollReveal().reveal('.service__box-container, .intro__icon-list-item, input[type="submit"]', { delay: 500, origin: 'bottom', interval: 200});
+ ScrollReveal().reveal('', { delay: 500, origin: 'top'});
+ ScrollReveal().reveal('.header__slider-namepr, .contact__info', { delay: 500, origin: 'left', interval: 200});
