@@ -80,9 +80,12 @@ aboutSkillBtn.addEventListener("click", function() {
 });
 
 
+
+
+// scroll animation
 ScrollReveal({ 
     reset: true,
-    distance: '10px',
+    distance: '0px',
     duration: 2500,
     delay: 400
  });
