@@ -79,13 +79,48 @@ aboutSkillBtn.addEventListener("click", function() {
 
 });
 
+// const link = document.querySelector(".link")
+// const li = document.querySelectorAll(".item")
+// li.forEach(item => {
+//     console.log(item.getAttribute("class"))
+// })
+// console.log(li)
+// console.log(link.getAttribute("href"))
+// link.setAttribute("target", "_blank")
+
+// const listLink = document.querySelectorAll("a.link")
+// listLink.forEach(item => item.setAttribute("target","_blank"))
+// const spinner = document.querySelector("#spinner")
+// spinner.textContent = "hello new content"
+// console.log(spinner.innerText)
+// spinner.innerHTML = `<div class = "demo">Hello</div>`
+// console.log(spinner.innerHTML)
+
+// const test = document.querySelector(".demo")
+// test.classList.add("is-active")
+
+// test.classList.toggle("is-active")
+
+// const menu = document.querySelector(".menu")
+// menu.classList.add("is-show")
 
 
 
-// scroll animation
+
+
+
+
+
+
+
+
+
+
+
+
 ScrollReveal({ 
     reset: true,
-    distance: '0px',
+    distance: '100px',
     duration: 2500,
     delay: 400
  });
