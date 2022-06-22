@@ -24,24 +24,31 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#service">Service</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#portfolio">Project</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div id="mobile__bar" class="mobile__menu">
-                    <!-- <i class="menu__icon fa-solid fa-bars"></i> -->
-                    <label id="mobie__bar" for="check">
-                        <i class="menu__icon fa-solid fa-bars"></i>
-                    </label>
-                    <input type="checkbox" id="check">
-                    <ul class="mobile__menu-nav--item">
-                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">Home</a></li>
-                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">About</a></li>
-                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">Service</a></li>
-                        <li class="mobile__menu-nav--list"><a href="" class="mobile__menu-nav--link">Portfolio</a></li>
-                        <li class="mobile__menu-nav--list"><a href="#contact" class="mobile__menu-nav--link">Contact</a></li>
-                    </ul>
-                </div>
+            </div>    
+            <div class="menu-hamburger">
+                <i class="fa fa-bars menu-toggle"></i>
+            </div>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#service" class="menu-link">Service</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#portfolio" class="menu-link">Portfolio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact" class="menu-link">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div id="particles-js">
@@ -70,9 +77,17 @@
                         </div> 
                     </div>        
                     <div class="col l-9 c-12">
-                        <div class="row sm-gutter">
+                        <div class="intro-skill">
+                            <div class="about-intro active" data-tab="1">
+                                Intro
+                            </div>
+                            <div class="about-intro" data-tab="2">
+                                Skills
+                            </div>
+                        </div>
+                        <!-- <div class="row sm-gutter">
                             <div class="col l-6 c-6">
-                                <button id="about__introBtn" class="about__info-item">
+                                <button id="about__introBtn" class="about__info-item" type="button">
                                     <p>Intro</p>
                                 </button>
                             </div>
@@ -81,20 +96,20 @@
                                     <p>Skills</p>
                                 </button>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="about__myinfo">
                             <div class="row">
                                 <div class="col l-12 c-12">
-                                    <div id="about__introList" class="col l-12 c-12 intro__text">
+                                    <div class="col l-12 c-12 about-info active intro__text" data-tab="1">
                                         <h2>Hi, I am Phu.</h2>
                                         <p>I am a Web Developer, working for the last five years. I have experience working with local clients along with clients from all around the world. I have vast knowledge about Web Design. The work I provide is of highest quality, Professional, and Authentic.</p>
                                         <div class="intro__icon">
                                             <ul class="intro__icon-list">
                                                 <li class="intro__icon-list-item">
-                                                    <a href="" class="fab fa-facebook"></a>
+                                                    <a href="https://www.facebook.com/phusssss/" class="fab fa-facebook"></a>
                                                 </li>
                                                 <li class="intro__icon-list-item">
-                                                    <a href="" class="fab fa-instagram"></a>
+                                                    <a href="https://www.instagram.com/slpgy/" class="fab fa-instagram"></a>
                                                 </li>
                                                 <li class="intro__icon-list-item">
                                                     <a href="" class="fab fa-linkedin"></a>
@@ -109,7 +124,7 @@
                             </div>        
                             <div class="row">
                                 <div class="col l-12 c-12">
-                                    <div id="about__skillList" class="col l-12 c-12 skill__bar">
+                                    <div class="col l-12 c-12 about-info skill__bar" data-tab="2">
                                         <li>
                                             <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
                                         </li>
